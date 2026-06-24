@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37314.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectOrientedProgrammingPractice", "ObjectOrientedProgrammingPractice\ObjectOrientedProgrammingPractice.csproj", "{0EF12EEB-AA6A-47A8-8307-FC4475B6CB3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Encapsulation", "Encapsulation\Encapsulation.csproj", "{6ADAB97B-41F4-4CFE-B872-651B2DD2083C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0EF12EEB-AA6A-47A8-8307-FC4475B6CB3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EF12EEB-AA6A-47A8-8307-FC4475B6CB3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EF12EEB-AA6A-47A8-8307-FC4475B6CB3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EF12EEB-AA6A-47A8-8307-FC4475B6CB3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6ADAB97B-41F4-4CFE-B872-651B2DD2083C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ADAB97B-41F4-4CFE-B872-651B2DD2083C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ADAB97B-41F4-4CFE-B872-651B2DD2083C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ADAB97B-41F4-4CFE-B872-651B2DD2083C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {368DA538-FD05-484D-96F2-C970E35D474F}
+	EndGlobalSection
+EndGlobal
