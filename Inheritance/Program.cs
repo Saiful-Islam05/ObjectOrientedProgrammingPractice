@@ -1,49 +1,12 @@
-﻿namespace Inheritance
+﻿using System.Xml.Linq;
+namespace Inheritance
 {
     internal class Program
     {
-        
-        public class Student : Person
-        {
-            public double Marks;
-
-            public Student(string name, int id, double marks): base(name,id)  // Person-এর constructor-কে name আর id পাঠাচ্ছে
-            {
-                this.Marks = marks;   // Student শুধু নিজের Marks handle করছে
-            }
-
-            public string GetGrade()
-            {
-                if (Marks >= 80) return "A+";
-                else if (Marks >= 60) return "A";
-                else if (Marks >= 40) return "B";
-                else return "F";
-            }
-
-        }
-
-        /*
-        public class Teacher
-        {
-            public string? Name;
-            public int Id;
-            public string? Subject;
-
-            public void PrintInfo()
-            {
-                Console.WriteLine($"Name: {Name}, ID: {Id}");
-            }
-
-            public string GetTitle()
-            {
-                return $"{Name} Sir ({Subject})";
-            }
-        }
-        */
 
         public class Person
         {
-            public string? Name;
+            public string Name;
             public int Id;
 
             public Person(string name, int id)
@@ -57,59 +20,66 @@
                 Console.WriteLine($"Name: {Name}, ID: {Id}");
             }
         }
-        
 
-
-
-        /*
-        public class Animal
+        public class Student : Person
         {
-            public string Name;
+            public double Marks;
 
-            public Animal(string name)
+            public Student(string name, int id, double marks)
+                : base(name, id)
             {
-                this.Name = name;
-                Console.WriteLine("Constructor of Animal Run");
+                this.Marks = marks;
+            }
+
+            public string GetGrade()
+            {
+                if (Marks >= 80) return "A+";
+                else if (Marks >= 60) return "A";
+                else if (Marks >= 40) return "B";
+                else return "F";
             }
         }
 
-        public class Dog: Animal
+        public class Teacher : Person
         {
-            public string Breed;
+            public string Subject;
 
-            public Dog(string name, string breed) : base(name)
+            public Teacher(string name, int id, string subject)
+                : base(name, id)
             {
-                this.Breed = breed;
-                Console.WriteLine("Constructor of Dog Run");
+                this.Subject = subject;
+            }
+
+            public string GetTitle()
+            {
+                return $"{Name} Sir ({Subject})";
             }
         }
-        */
+
+
 
         static void Main(string[] args)
         {
-            /*
-            Student rahim = new Student("Rahim", 101);
-            rahim.Marks = 85;
+            Student student = new Student("Saiful", 101, 85);
+            Teacher teacher = new Teacher("Dipu", 201, "Computer Science");
 
-            Console.WriteLine(rahim.Name);        // Output: Rahim — Person থেকে
-            Console.WriteLine(rahim.Id);          // Output: 101 — Person থেকে
-            Console.WriteLine(rahim.Marks);       // Output: 85 — Student-এর নিজের
-            Console.WriteLine(rahim.GetGrade());  // Output: A+ — Student-এর নিজের
-            rahim.PrintInfo();                    // Output: Name: Rahim, ID: 101 — Person থেকে
-            */
+            student.PrintInfo();
+            Console.WriteLine(student.Marks);
+            Console.WriteLine(student.GetGrade());
 
-            //  Dog tommy = new Dog("Tommy", "Labrador");
 
-            Student rahim = new Student("Rahim", 101, 85);
+            Console.WriteLine("------------------");
 
-            Console.WriteLine(rahim.Name);       // Output: Rahim — Person-এর constructor set করেছে
-            Console.WriteLine(rahim.Id);         // Output: 101 — Person-এর constructor set করেছে
-            Console.WriteLine(rahim.Marks);      // Output: 85 — Student-এর constructor set করেছে
-            Console.WriteLine(rahim.GetGrade()); // Output: A+ — Student-এর নিজের method
-            rahim.PrintInfo();                   // Output: Name: Rahim, ID: 101 — Person থেকে পাওয়া method
+
+
+            teacher.PrintInfo();
+            Console.WriteLine(teacher.Subject);
+            Console.WriteLine(teacher.GetTitle());
+
 
 
 
         }
     }
 }
+
