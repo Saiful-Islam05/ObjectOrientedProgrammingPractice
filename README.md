@@ -1,4 +1,4 @@
-পর্ব ০১: OOP কী এবং কেন দরকার?
-পর্ব ০২: Encapsulation — Data লুকিয়ে রাখো, নিয়ম মেনে Access দাও
-পর্ব ০৩: Inheritance — একটা Class থেকে আরেকটা
-পর্ব ০৪: Polymorphism — একই নাম, ভিন্ন কাজ
+- পর্ব ০১: OOP কী এবং কেন দরকার?
+- পর্ব ০২: Encapsulation — Data লুকিয়ে রাখো, নিয়ম মেনে Access দাও
+- পর্ব ০৩: Inheritance — একটা Class থেকে আরেকটা
+- পর্ব ০৪: Polymorphism — একই নাম, ভিন্ন কাজ
