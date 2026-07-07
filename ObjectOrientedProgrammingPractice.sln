@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polymorphism", "Polymorphis
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstraction", "Abstraction\Abstraction.csproj", "{64D529FB-9844-40FC-B8B7-CB6661B4E19F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Real Project — School Management System - OOP", "Real Project — School Management System - OOP\Real Project — School Management System - OOP.csproj", "{895A52FC-642C-4C44-8766-6AEC2FAC5E80}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{64D529FB-9844-40FC-B8B7-CB6661B4E19F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64D529FB-9844-40FC-B8B7-CB6661B4E19F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64D529FB-9844-40FC-B8B7-CB6661B4E19F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{895A52FC-642C-4C44-8766-6AEC2FAC5E80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{895A52FC-642C-4C44-8766-6AEC2FAC5E80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{895A52FC-642C-4C44-8766-6AEC2FAC5E80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{895A52FC-642C-4C44-8766-6AEC2FAC5E80}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
