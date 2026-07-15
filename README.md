@@ -4,3 +4,4 @@
 - পর্ব ০৪: Polymorphism — একই নাম, ভিন্ন কাজ
 - পর্ব ০৫: Abstraction — শুধু কী করবে বলো, কীভাবে করবে বলো না
 - পর্ব ০৬: Real Project — School Management System
+- পর্ব ০৭: OOP Interview Questions — বাংলায় প্রস্তুতি
